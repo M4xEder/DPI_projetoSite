@@ -1,0 +1,100 @@
+
+/*propriedades formulario para contato*/ 
+
+/* Elementos com o ID "titulo" */
+
+#contei{
+    border-top: 4px solid var(--third-color);
+    background-color:var(--first-color);
+    background-attachment: fixed;
+    height: 27rem;
+}
+.titulo {
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--fourth-color);
+} 
+
+/* Elementos com o ID "subtitulo" */
+
+#subtitulo {
+    color: var(--third-color);
+    margin-left: 10px;
+} 
+
+/* Elementos de tags */
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: var(--fourth-color);
+    border-radius: 5px;
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+
+.campo {
+   margin-left:20px;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: var(--fourth-color);
+    display: block;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid var(--fourth-color);
+    box-shadow: 2px 2px 2px var(--fourth-color);
+    display: block;
+}
+.campo select option {
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: var(--third-color);
+}
+
+/* Elemento de classe "botao" */
+
+.botao {
+    font-size: 1.2em;
+    background: var(--fourth-color);
+    border: 0;
+    margin-top:20px;
+    margin-left: 20px;
+    color: var(--third-color);
+    padding: 0.2em 0.6em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5); 
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+
+.botao:hover {
+    background: var(--fourth-color);
+    box-shadow: inset 2px 2px 2px var(--octave-color);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+
+.botao, select{
+    cursor: pointer;
+}
+p{ 
+    text-align: center;
+}
