@@ -213,7 +213,17 @@ img{
     grid-gap:24px;
     padding: 1rem;
 }
-
+@media(max-width:600px){
+    .selec{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        max-width: 400px;
+        margin:0 auto;
+        grid-gap:24px;
+        padding: 1rem;
+    }
+}
+    
  /*propriedades Footer = Rodapé*/
 
  #myFooter{
